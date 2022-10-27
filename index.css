@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sub-main{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 4px;
+}
