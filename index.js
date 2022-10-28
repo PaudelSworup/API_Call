@@ -2,7 +2,7 @@ const div = document.getElementById("main-div");
 console.log(div);
 
 async function getData() {
-  const response = await fetch("http://jsonplaceholder.typicode.com/posts");
+  const response = await fetch("https://jsonplaceholder.typicode.com/posts");
   const data = await response.json();
   console.log(data);
 
